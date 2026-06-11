@@ -25,10 +25,10 @@ export default function About() {
 
               <div className="flex items-center gap-4 pt-4 border-t border-gray-900">
                 <div className="w-12 h-12 rounded-full border border-gray-800 flex items-center justify-center text-gray-400 bg-gray-900 font-bold font-display text-base text-cyan-400">
-                  AR
+                  RS
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-gray-100">Alex Rivera</h4>
+                  <h4 className="text-sm font-bold text-gray-100">Rajswa Srivastava</h4>
                   <p className="text-[10px] text-gray-500 font-mono">Founder, Arketra Intelligence</p>
                 </div>
               </div>
