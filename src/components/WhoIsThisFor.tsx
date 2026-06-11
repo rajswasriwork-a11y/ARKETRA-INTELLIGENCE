@@ -29,7 +29,7 @@ export default function WhoIsThisFor() {
   ];
 
   return (
-    <section id="who-this-is-for" className="relative py-20 lg:py-28 overflow-hidden bg-[#030712] border-t border-gray-900">
+    <section id="who-is-it-for" className="relative py-20 lg:py-28 overflow-hidden bg-[#030712] border-t border-gray-900">
       {/* Ambient background blur */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full bg-purple-950/10 blur-3xl pointer-events-none" />
 

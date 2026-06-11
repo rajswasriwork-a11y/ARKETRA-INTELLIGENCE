@@ -70,7 +70,7 @@ export default function Navbar({ onOpenBooking }: NavbarProps) {
               onClick={onOpenBooking}
               className="group flex items-center gap-2 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-gray-950 font-bold px-4 py-2.5 text-xs transition duration-300 shadow-md shadow-cyan-500/10 cursor-pointer"
             >
-              Get Free Automation Audit
+              Book Free Recruitment Automation Audit
               <ArrowRight size={13} className="transition group-hover:translate-x-0.5" />
             </button>
           </div>
@@ -109,7 +109,7 @@ export default function Navbar({ onOpenBooking }: NavbarProps) {
               }}
               className="w-full flex justify-center items-center gap-2 rounded-lg bg-cyan-500 text-gray-950 font-bold py-3 text-sm transition"
             >
-              Get Free Automation Audit
+              Book Free Recruitment Automation Audit
               <ArrowRight size={15} />
             </button>
           </div>

@@ -78,7 +78,7 @@ export default function App() {
               onClick={handleOpenBooking}
               className="group inline-flex h-12 items-center justify-center gap-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 text-gray-950 font-extrabold px-10 text-sm transition-all shadow-lg shadow-cyan-500/10 hover:shadow-cyan-500/25 cursor-pointer"
             >
-              Get Free Recruitment Automation Audit
+              Book Free Recruitment Automation Audit
               <ArrowRight size={16} className="transition group-hover:translate-x-1" />
             </button>
           </div>
@@ -91,6 +91,19 @@ export default function App() {
 
       {/* Navigation Footer */}
       <Footer onOpenBooking={handleOpenBooking} />
+
+      {/* Floating Sticky CTA on Mobile Screen sizes */}
+      <div className="fixed bottom-4 inset-x-4 z-40 md:hidden">
+        <div className="p-1 rounded-xl bg-gray-950/80 border border-gray-900 shadow-2xl backdrop-blur-md">
+          <button
+            onClick={handleOpenBooking}
+            className="w-full flex h-11 items-center justify-center gap-2 rounded-lg bg-cyan-400 hover:bg-cyan-300 text-gray-950 font-bold text-xs transition active:scale-[0.98] cursor-pointer"
+          >
+            <span>Book Free Recruitment Audit</span>
+            <ArrowRight size={13} />
+          </button>
+        </div>
+      </div>
 
       {/* Interactive, self-governing scheduling system */}
       <BookingModal isOpen={isBookingOpen} onClose={handleCloseBooking} />

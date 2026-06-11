@@ -135,8 +135,8 @@ export default function BookingModal({ isOpen, onClose }: BookingModalProps) {
                     {step > 1 ? <Check size={12} /> : '1'}
                   </div>
                   <div>
-                    <p className={`text-xs font-medium ${step >= 1 ? 'text-gray-200' : 'text-gray-500'}`}>Qualification</p>
-                    <p className="text-[10px] text-gray-500">Your recuritment stack</p>
+                    <span className={`text-xs font-medium ${step >= 1 ? 'text-gray-200' : 'text-gray-500'}`}>Qualification</span>
+                    <p className="text-[10px] text-gray-500">Your recruitment stack</p>
                   </div>
                 </div>
 

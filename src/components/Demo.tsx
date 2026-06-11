@@ -161,7 +161,7 @@ export default function Demo() {
                     <div>
                       <h4 className="text-sm font-bold text-gray-200">Play Simulated Tech Demo ({currentDemo.duration})</h4>
                       <p className="text-[11px] text-gray-500 max-w-sm mt-1 mx-auto text-center">
-                        Clicking play starts an interactive simulator tracing exactly how ARKETRA automates this specific recuritment task.
+                        Clicking play starts an interactive simulator tracing exactly how ARKETRA automates this specific recruitment task.
                       </p>
                     </div>
                   </div>

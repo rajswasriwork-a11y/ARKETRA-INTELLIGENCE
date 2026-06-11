@@ -155,7 +155,7 @@ export default function EarlyAccess() {
                     type="submit"
                     className="w-full rounded-lg bg-cyan-400 hover:bg-cyan-500 text-gray-950 font-bold px-5 py-3 text-sm transition shadow-lg shadow-cyan-400/15 cursor-pointer text-center block"
                   >
-                    Get Free Recruitment Automation Audit
+                    Book Free Recruitment Automation Audit
                   </button>
 
                   <div className="flex items-center justify-center gap-1.5 text-[10px] text-gray-500 font-mono">

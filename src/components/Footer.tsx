@@ -9,7 +9,7 @@ export default function Footer({ onOpenBooking }: FooterProps) {
     { label: 'The Problem', href: '#problem' },
     { label: 'What We Automate', href: '#what-we-automate' },
     { label: 'How It Works', href: '#how-it-works' },
-    { label: 'Who It Is For', href: '#who-this-is-for' },
+    { label: 'Who It Is For', href: '#who-is-it-for' },
     { label: 'Free Audit Form', href: '#early-access' },
     { label: 'Frequently Asked Questions', href: '#faq' },
   ];
@@ -59,9 +59,9 @@ export default function Footer({ onOpenBooking }: FooterProps) {
             </p>
             <button
               onClick={onOpenBooking}
-              className="w-full block rounded-lg bg-gray-900 hover:bg-gray-850 hover:text-white border border-gray-800 text-center text-xs font-semibold text-gray-300 py-2.5 px-4 transition cursor-pointer"
+              className="w-full block rounded-lg bg-gray-900 hover:bg-gray-850 hover:text-white border border-gray-800 text-center text-xs font-semibold text-gray-300 py-2.5 px-4 transition cursor-pointer font-sans"
             >
-              Request Custom Audit Call
+              Book Free Recruitment Automation Audit
             </button>
           </div>
         </div>

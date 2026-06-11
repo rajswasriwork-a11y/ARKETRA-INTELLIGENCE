@@ -74,7 +74,7 @@ export default function Hero({ onOpenBooking }: HeroProps) {
                 onClick={onOpenBooking}
                 className="group flex h-12 items-center justify-center gap-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-gray-950 font-extrabold px-8 text-sm transition-all shadow-lg shadow-cyan-500/10 hover:shadow-cyan-500/20 cursor-pointer"
               >
-                Get Free Recruitment Automation Audit
+                Book Free Recruitment Automation Audit
                 <ArrowRight size={16} className="transition group-hover:translate-x-1" />
               </button>
               
@@ -83,23 +83,23 @@ export default function Hero({ onOpenBooking }: HeroProps) {
                 className="flex h-12 items-center justify-center gap-2.5 rounded-xl border border-gray-800 hover:border-gray-700 bg-gray-950/40 hover:bg-gray-950 text-xs font-semibold text-gray-300 hover:text-white px-6 transition duration-300"
               >
                 <Play size={12} className="fill-current text-cyan-400" />
-                Watch Live Demo
+                Watch 3-Minute Demo
               </a>
             </div>
 
             {/* Real Outcomes - Honest stat highlights */}
             <div className="pt-8 border-t border-gray-900 grid grid-cols-3 gap-4">
               <div>
-                <p className="font-display text-2xl font-bold text-white text-left">10+ Hrs</p>
+                <p className="font-display text-2xl font-bold text-white text-left">15+ Hrs</p>
                 <p className="text-[10px] text-gray-500 uppercase tracking-widest font-mono">Saved Weekly</p>
               </div>
               <div>
-                <p className="font-display text-2xl font-bold text-cyan-400 text-left">4.2x</p>
-                <p className="text-[10px] text-gray-500 uppercase tracking-widest font-mono">Faster Booking</p>
+                <p className="font-display text-2xl font-bold text-cyan-400 text-left">2.5x</p>
+                <p className="text-[10px] text-gray-500 uppercase tracking-widest font-mono font-bold">Reply Rate Lift</p>
               </div>
               <div>
-                <p className="font-display text-2xl font-bold text-purple-400 text-left">10 Min</p>
-                <p className="text-[10px] text-gray-500 uppercase tracking-widest font-mono font-bold">Standard Setup</p>
+                <p className="font-display text-2xl font-bold text-purple-400 text-left">70% Faster</p>
+                <p className="text-[10px] text-gray-500 uppercase tracking-widest font-mono font-bold">Call Booking</p>
               </div>
             </div>
           </div>
